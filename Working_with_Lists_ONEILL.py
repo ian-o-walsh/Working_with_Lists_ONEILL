@@ -39,3 +39,14 @@ divisible_by_six = [num for num in range(1, 1001) if num % 6 == 0]
 print("\nHere are twenty numbers divisible by 6:")
 for num in divisible_by_six[:20]:
     print(num)
+
+# Calculate and store the maximum number in the list
+max_number = max(divisible_by_six)
+print("\nThe maximum value in the list is:", max_number)
+
+# Calculate the sum of values between the 10th and 50th value in the list
+sum_values = sum(divisible_by_six[9:50])
+print("Here is the sum of several values in the list:", sum_values)
+
+# Overwrite the course list variable with the list of numbers
+courses_taken = divisible_by_six
