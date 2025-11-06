@@ -31,3 +31,11 @@ for course in completed_courses:
 print("\nI plan to take the following courses next term:")
 for course in courses_taken:
     print(course.upper())
+
+# Create a list of numbers from 1 to 1000 that are divisible by 6
+divisible_by_six = [num for num in range(1, 1001) if num % 6 == 0]
+
+# Print the first 20 numbers from the list
+print("\nHere are twenty numbers divisible by 6:")
+for num in divisible_by_six[:20]:
+    print(num)
